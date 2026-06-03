@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "backend": "pycomm3",
+  "ip": "192.168.1.10",
+  "modbus": {
+    "unit": 1,
+    "port": 502
+  },
+  "mappings": [
+    {
+      "label": "Automatique",
+      "mode": "PULSE_TRUE",
+      "ref": "Cell.cmd.automaticReq",
+      "value": null,
+      "pulse_ms": 100
+    },
+    {
+      "label": "Manuel",
+      "mode": "PULSE_TRUE",
+      "ref": "Cell.cmd.manualReq",
+      "value": null,
+      "pulse_ms": 100
+    },
+    {
+      "label": "Stop",
+      "mode": "PULSE_TRUE",
+      "ref": "Cell.cmd.stopReq",
+      "value": null,
+      "pulse_ms": 100
+    },
+    {
+      "label": "Start",
+      "mode": "PULSE_TRUE",
+      "ref": "Cell.cmd.startReq",
+      "value": null,
+      "pulse_ms": 100
+    },
+    {
+      "label": "Reset",
+      "mode": "PULSE_TRUE",
+      "ref": "Cell.cmd.reset",
+      "value": null,
+      "pulse_ms": 100
+    },
+    {
+      "label": "Open_Door",
+      "mode": "PULSE_TRUE",
+      "ref": "EQ02_Shuttles.cmd.openDoors",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "Close_Door",
+      "mode": "PULSE_TRUE",
+      "ref": "EQ02_Shuttles.cmd.closeDoors",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "Stop_Door",
+      "mode": "PULSE_TRUE",
+      "ref": "EQ02_Shuttles.cmd.stopDoors",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "BTN 10",
+      "mode": "PULSE_TRUE",
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    },
+    {
+      "label": "(non défini)",
+      "mode": null,
+      "ref": "",
+      "value": null,
+      "pulse_ms": 200
+    }
+  ]
+}
